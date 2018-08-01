@@ -33,11 +33,20 @@ backup = <학습시 가중치가 저장되는 폴더경로>
 
 
 **학습**
-- 코드: ./darknet detector train <.data 파일경로> <.cfg 파일경로> <초기 가중치파일 경로>
-- 예시: ./darknet detector train data/cus_obj.data cfg/cus_yolov3.cfg darknet53.conv.74
+~~~
+./darknet detector train <.data 파일경로> <.cfg 파일경로> <초기 가중치파일 경로>
+예시) ./darknet detector train data/cus_obj.data cfg/cus_yolov3.cfg darknet53.conv.74
+~~~
 
 
 **테스트**
-- 코드: ./darknet detector test <.data 파일경로> <.cfg 파일경로> <.weights 파일경로> <.jpg 파일경로>
-- 예시: ./darknet detector test data/cus_obj.data  cfg/cus_yolov3.cfg backup/cus_yolov3_10000.weights data/imgs/dal_t0.jpg
+~~~
+./darknet detector test <.data 파일경로> <.cfg 파일경로> <.weights 파일경로> <.jpg 파일경로>
+예시) ./darknet detector test data/cus_obj.data  cfg/cus_yolov3.cfg backup/cus_yolov3_10000.weights data/imgs/dal_t0.jpg
+
+./darknet detector test <.data 파일경로> <.cfg 파일경로> <.weights 파일경로> <test.txt파일 경로> <결과가 출력 될 파일 경로>
+예시) ./darknet detector test data/cus_obj.data cfg/cus_yolov3.cfg backup/cus_yolov3_10000.weights <data/test.txt> result.txt
+~~~
+
+
 참고) 테스트 시 .data파일을 명시해 주지 않으면 coco.data파일을 사용하게 되므로 주의가 필요함.
