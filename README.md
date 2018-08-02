@@ -1,4 +1,4 @@
-﻿<img src="./miscellaneous/logo.png" width="60%" height="60%">
+<img src="./miscellaneous/logo.png" width="60%" height="60%">
 
 # 자기소개  
 
@@ -16,3 +16,7 @@
 컴퓨터 비전
 
 텍스트 마이닝
+
+
+# 진행 중인 논문
+auto_OR_model
