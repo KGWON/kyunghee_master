@@ -14,7 +14,7 @@
 - 각 과정에 최적화가 개별로 이루어지기 때문에 속도가 느림..
 
 3. **`YOLO`**
-- **단일 CNN(single convolutional neural network)**으로 경계박스 및 클래스 스코어를 예측할 수 있음. 
+- __단일 CNN(single convolutional neural network)__으로 경계박스 및 클래스 스코어를 예측할 수 있음. 
 - YOLO는 **전체** 이미지를 한번에 학습하기 때문에 일반화된 특징을 더 잘 추출함.
 - 복잡한 pipeline을 하나로 통합(unified) 하였기 때문에 속도가 빠름.
 
