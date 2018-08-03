@@ -11,7 +11,7 @@
 - region proposal approach. 
 - ‘selective search’를 이용하여 potential bounding box를 검출한 후 그 곳에 classifier를 적용함. 
 - 후처리(post-processing)과정도 있어서 매우 복잡한 pipeline을 가진다. 
-- 각 과정에 최적화가 개별로 이루어지기 때문에 속도가 느림..
+- 각 과정에 최적화가 개별로 이루어지기 때문에 속도가 느림.
 
 3. **`YOLO`**
 - 단일 CNN(single convolutional neural network)으로 경계박스 및 클래스 스코어를 예측할 수 있음. 
