@@ -21,7 +21,7 @@
 ### Unified Detection.
 1. 전체 이미지를 `S * S` 개의 grid cell로 분할.
 
-2. grid cell마다 클래스 개수만큼의 `class probability`와 `B`개의 경계박스를 가지고 있음. 각 경계박스는 object의 x, y, w, h, confidence를 포함함. 
+2. grid cell마다 클래스 개수만큼의 `class probability`와 `B`개의 경계박스를 가지고 있음. 각 경계박스는 object의 `x, y, w, h, confidence`를 포함함. 
 
 
 3. 따라서 YOLO의 최종 아웃풋 사이즈는 `S * S * (B * 5 + #class)`
