@@ -55,5 +55,7 @@ backup = <학습시 가중치가 저장되는 폴더경로>
 ## 레퍼런스
 [yolo_v1 슬라이드](https://docs.google.com/presentation/d/1aeRvtKG21KHdD5lg6Hgyhx5rPq_ZOsGjG5rJ1HP7BbA/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
+[yolo_v1 슬라이드 해석 블로그](http://blog.naver.com/PostView.nhn?blogId=sogangori&logNo=220993971883&parentCategoryNo=6&categoryNo=&viewDate=&isShowPopularPosts=true&from=search)
+
 
 [yolo_v1 논문](https://arxiv.org/abs/1506.02640)
