@@ -25,3 +25,7 @@
 
 
 3. 따라서 YOLO의 최종 아웃풋 사이즈는 `S * S * (B * 5 + #class)`
+
+
+### 자세한 YOLO bounding box 탐색 원리는…
+[YOLO 슬라이드](https://docs.google.com/presentation/d/1aeRvtKG21KHdD5lg6Hgyhx5rPq_ZOsGjG5rJ1HP7BbA/pub?start=false&loop=false&delayms=3000&slide=id.p)
