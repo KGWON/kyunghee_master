@@ -50,3 +50,9 @@ backup = <학습시 가중치가 저장되는 폴더경로>
 
 
 참고) 테스트 시 `.data`파일을 명시해 주지 않으면 `coco.data`파일을 사용하게 되므로 주의가 필요함.
+
+## 레퍼런스
+[yolo_v1 슬라이드](https://docs.google.com/presentation/d/1aeRvtKG21KHdD5lg6Hgyhx5rPq_ZOsGjG5rJ1HP7BbA/pub?start=false&loop=false&delayms=3000&slide=id.g137784ab86_4_427)
+
+
+[yolo_v1 논문 원문](https://arxiv.org/abs/1506.02640)
