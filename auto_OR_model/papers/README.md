@@ -42,16 +42,16 @@
 
 #### Network design
 
-<img src = "./miscellaneous/yolo_v1_network.png">
+<img src = "~/miscellaneous/yolo_v1_network.png">
 
 - input size: 448 * 448 (다른 크기의 사진을 인풋 시켜도 자동으로 448 * 448로 `resize`한다.)
 - activation function: leaky relu
 - loss function: sum-squared error(it is easy to optimize)
-- <img src = "./miscellaneous/yolo_loss_function.png">
+- <img src = "~/miscellaneous/yolo_loss_function.png">
 - ![](/Users/ku/kyunghee_master/miscellaneous/lambda.svg): confidence score가 대부분 '0'이어서 object를 포함한 셀의 gradient가 과대평가 될 우려가 있기 때문에 object가 포함된 셀에는 페널티를 많이 주고, object가 없는 셀에는 페널티를 적게 주기 위함.             
 
-  - <img src = "./miscellaneous/lambda_coord.svg"> = 5 (최적화 시 object가 있는 셀에 더욱 집중 하게 된다.)
-  - <img src = "./miscellaneous/lambda_noobj.svg"> = 0.5(최적화 시 object가 없는 셀은 덜 집중 하게 된다.)
+  - <img src = "~/miscellaneous/lambda_coord.svg"> = 5 (최적화 시 object가 있는 셀에 더욱 집중 하게 된다.)
+  - <img src = "~/miscellaneous/lambda_noobj.svg"> = 0.5(최적화 시 object가 없는 셀은 덜 집중 하게 된다.)
 
 
 
