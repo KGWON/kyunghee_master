@@ -19,4 +19,4 @@
 
 
 # 진행 중인 논문
-auto_OR_model
+[auto_OR_model](/auto_OR_model)
