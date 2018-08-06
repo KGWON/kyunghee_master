@@ -57,5 +57,6 @@ backup = <학습시 가중치가 저장되는 폴더경로>
 
 [yolo_v1 슬라이드 해석 블로그](http://blog.naver.com/PostView.nhn?blogId=sogangori&logNo=220993971883&parentCategoryNo=6&categoryNo=&viewDate=&isShowPopularPosts=true&from=search)
 
-
 [yolo_v1 논문](https://arxiv.org/abs/1506.02640)
+
+[mAP 계산 방법](https://medium.com/@jonathan_hui/map-mean-average-precision-for-object-detection-45c121a31173)
