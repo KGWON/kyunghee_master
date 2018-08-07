@@ -1,6 +1,10 @@
 # Papers Summary
 
-## Introduction.
+
+
+##  1. You Only Look Once- Unified, Real-Time Object Detection
+
+### 1) Introduction.
 
 ### 기존연구 요약 및 YOLO의 장점.
 
@@ -23,7 +27,7 @@
 
   
 
-### Unified Detection.
+### 2) Unified Detection.
 
 1. 전체 이미지를 `S * S` 개의 grid cell로 분할.
 
@@ -40,7 +44,7 @@
 
 
 
-#### Network design
+#### 2.1. Network design
 
 <img src = "/miscellaneous/yolo_v1_network.png">
 
@@ -55,7 +59,7 @@
 
 
 
-#### LImitations of YOLO
+#### 2.2. LImitations of YOLO
 
 1. `Spatial constraint`: 각 그리드 셀은 오직 B개의 bbox를 가질 수 있고 각 bbox는 하나의 클래스만 예측할 수 있음.
 
@@ -67,7 +71,32 @@
 
 
 
-## 더욱 자세한 YOLO bounding box 원리는… 아래 슬라이드를 참조!
+#### *더욱 자세한 YOLO bounding box 원리는… 아래 슬라이드를 참조!*
 
 [YOLO 슬라이드](https://docs.google.com/presentation/d/1aeRvtKG21KHdD5lg6Hgyhx5rPq_ZOsGjG5rJ1HP7BbA/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
+
+
+## 2. OBJ2TEXT: Generating Visually Descriptive Language from Object Layouts
+
+### 1) Oerview of proposed model(OBJ2TEXT)
+
+1. **`OBJ2TEXT-YOLO`**:
+
+- YOLO의 출력값인 `category name`과 `bbox information`을 결합하여 `neuraltalk2` 모델의 인풋으로 사용.
+
+2. **`OBJ2TEXT-YOLO + CNN-RNN`**:
+
+- `OBJ2TEXT-YOLO`에서 `neuraltalk2`에 인풋 시키기 전에 CNN을 통해 추출한 이미지 특징(feature)을 결합하여 `neuraltalk2`에 인풋시킴.
+
+
+
+### 2) Experimental Setup
+
+- data set: `MS-COCO`
+- Seq2seq model: `neuraltalk2` (오픈 소스 이미지 캡셔닝)
+- GPU: `GTX1080(8GB)`
+- Epoch: `400k`
+- Batch size: `16`
+- Optimizer: `Adam`(alpha=0.8, beta=0.999, epsilon=1e-08)
+- Beam width=`2`
