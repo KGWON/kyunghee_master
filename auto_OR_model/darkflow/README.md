@@ -19,9 +19,10 @@ import cv2
 # 상대경로를 주의하자.
 options = {"model": "./darkflow/cfg/yolo.cfg", 
            "load": "./darkflow/bin/yolo.weights", 
-           "config": "./darkflow/cfg", "threshold": 0.4, 
-           "gpu": 0.9,
-           "imgdir": "./darkflow/sample_img"}
+           "config": "./darkflow/cfg", 
+           "imgdir": "./darkflow/sample_img",
+           "threshold": 0.2, 
+           "gpu": 0.9}
 
 # 파라미터를 이용하여 모델을 빌드한다.
 tfnet = TFNet(options)
