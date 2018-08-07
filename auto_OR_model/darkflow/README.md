@@ -4,7 +4,7 @@
 
 ####   1) 터미널에서 ipython 또는 python을 실행시킨다. (root에서 실행함을 주의하자.)
 
-![ipython_screenshot]("/miscellaneous/ipython_screenshot.png")
+![ipython_screenshot](/miscellaneous/ipython_screenshot.png)
 
 
 
@@ -35,7 +35,7 @@ print(result)
 
 ####   3) result 객체에는 아래와 같은 결과가 담긴다.
 
-![ipython_result]("/miscellaneous/ipython_result.png")
+![ipython_result](/miscellaneous/ipython_result.png)
 
 
 
