@@ -68,7 +68,7 @@ batch_size = 8
 # 인덱스 값들은 정수이므로 dtype = "tf.int32"으로 한다! 안하면 나중에 에러난다.
 encoder_input = tf.placeholder(dtype=tf.int32, shape=[None, None]) # (batch size=?, max_enc_size=4)
 decoder_input = tf.placeholder(tf.int32, [None, None]) # (batch size=?, max_dec_size=7)
-targets = tf.placeholder(tf.int32, [None, None]) # (batch size, dic_len)
+targets = tf.placeholder(tf.int32, [None, None]) # (batch size, max_dec_size=7)
 # encoder_input = tf.placeholder(dtype=tf.int32, shape=[None, max_enc_size]) # (batch size=?, max_enc_size=4)
 # decoder_input = tf.placeholder(tf.int32, [None, max_dec_size]) # (batch size=?, max_dec_size=7)
 # targets = tf.placeholder(tf.int32, [None, max_dec_size]) # (batch size=?, max_dec_size=7)
