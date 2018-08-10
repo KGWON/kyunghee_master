@@ -1,11 +1,12 @@
 ## TODO
 
-- [ ] 추론과정 구현
-- [ ] 배치는 10개인데 8개만 들어가는 현상 수정
+- [ ] 추론과정 구현.
+- [ ] 배치는 10개인데 8개만 들어가는 현상 수정.
 - [ ] '\<pad\>'의 개수 잘못 들어간 것(패딩 안 넣고 None으로도 구현할 수 있나..?)
-- [ ] 배치학습 구현
+- [ ] `tf.nn.dynamic_rnn`함수의 `sequence_length` 파라미터를 사용하는 코드 구현하기.
+- [ ] 배치학습 구현.
 - [ ] 코드 좀더 간결하게 수정. 아래의 레퍼런스를 참조하여 수정하자.
-- [ ] 텐서플로우 코드를 파이토치 코드로 구현
+- [ ] 텐서플로우 코드를 파이토치 코드로 구현.
 
 
 [seq2seq 생소한 코드로 구현](https://towardsdatascience.com/seq2seq-model-in-tensorflow-ec0c557e560f)
@@ -15,6 +16,8 @@
 [배치학습 참조](https://medium.com/trackin-datalabs/input-data-tf-data-%EC%9C%BC%EB%A1%9C-batch-%EB%A7%8C%EB%93%A4%EA%B8%B0-1c96f17c3696)
 
 [모두의 딥러닝 - 김성훈 교수님](https://hunkim.github.io/ml/)
+
+[word-rnn-tensorflow_hunkim](https://github.com/hunkim/word-rnn-tensorflow)
 
 
 
