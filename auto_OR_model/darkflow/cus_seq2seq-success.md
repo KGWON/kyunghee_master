@@ -1,13 +1,6 @@
-## TODO
 
-- [ ] 추론과정 구현.
-- [ ] 배치는 10개인데 8개만 들어가는 현상 수정.
-- [ ] '\<pad\>'의 개수 잘못 들어간 것(패딩 안 넣고 None으로도 구현할 수 있나..?)
-- [ ] `tf.nn.dynamic_rnn`함수의 `sequence_length` 파라미터를 사용하는 코드 구현하기.
-- [ ] 배치학습 구현.
-- [ ] 코드 좀더 간결하게 수정. 아래의 레퍼런스를 참조하여 수정하자.
-- [ ] 텐서플로우 코드를 파이토치 코드로 구현.
 
+## References
 
 [seq2seq 생소한 코드로 구현](https://towardsdatascience.com/seq2seq-model-in-tensorflow-ec0c557e560f)
 
@@ -15,20 +8,35 @@
 
 [배치학습 참조](https://medium.com/trackin-datalabs/input-data-tf-data-%EC%9C%BC%EB%A1%9C-batch-%EB%A7%8C%EB%93%A4%EA%B8%B0-1c96f17c3696)
 
-[모두의 딥러닝 - 김성훈 교수님](https://hunkim.github.io/ml/)
+[모두의 딥러닝 메인 - 김성훈 교수님](https://hunkim.github.io/ml/)
+
+[모두의 딥러닝 - RNN 실습 슬라이드 - 김성훈 교수님](https://docs.google.com/presentation/d/1UpZVnOvouIbXd0MAFBltSra5rRpsiJ-UyBUKGCrfYoo/edit#slide=id.g1ed9069b96_0_184)
 
 [word-rnn-tensorflow_hunkim](https://github.com/hunkim/word-rnn-tensorflow)
 
 
 
-## 반성의 시간
+## TODO
+
+- [x] 배치는 10개인데 8개만 들어가는 현상 수정하기. ===> cus_tool.py 내용 수정으로 해결.
+- [x] '\<pad\>'의 개수 잘못 들어간 것 수정하기. ===> cus_tool.py 내용 수정으로 해결.
+- [x] `tf.nn.dynamic_rnn`함수의 `sequence_length` 파라미터를 사용하는 코드 구현하기.
+- [ ] 추론과정 구현.
+- [ ] 배치학습 구현.
+- [ ] 인코더와 디코더의 weight를 어떻게 따로 저장하는지 알아보기.
+- [ ] 코드 좀더 간결하게 수정. (아래의 레퍼런스를 참조하자.)
+- [ ] 패딩 안 넣고 플레이스홀더의 차원을 'None'으로 할 수 있는지 알아보기.
+- [ ] 텐서플로우 코드를 파이토치 코드로 구현.
+
+
+
+## 반성의 시간 및 교훈
 
 - `placeholder`: 리스트나 넘파이 배열같은 데이터를 `tensor`로 전환 해주는 역할. 플레이스홀더를 코드 상단에서 먼저 선언해 주어야 코드를 계획할 때 혼돈이 없다.
 - `tf.one-hot`: *(batch size, time steps)* ---> *(batch size, time steps, vocabulary size)*로 전환 해 준다. shape 변환에 주의하자. 이거 때문에… 거의 이틀을 코드만 보고 있었다...
 - 셀을 쌓을 때 마다 shape를 주의하고 주의하고 또 주의하자… 꼭 중간중간 세션을 실행시켜서 실제 결과를 확인해 보자.
 - RNN은 대부분 문자 데이터를 다루므로 CNN에 비해서 전처리에 시간이 많이 걸린다… 꾸준히 연습하자.
-
-
+- 스크래치부터 개발을 할 때는 파이참보다 주피터노트북이 좋은 것 같다. 작은 코드 블럭 별로 인풋을 피드 시킨다음 아웃풋이 생각한 것과 같은 형태 (특히 shape!!)인지 확인 해보면서 블럭을 쌓자.
 
 ```python
 from IPython.core.interactiveshell import InteractiveShell
