@@ -20,6 +20,8 @@
 
 [텐서플로우 seq2seq API 사용법](https://github.com/j-min/tf_tutorial_plus/blob/master/RNN_seq2seq/contrib_seq2seq/01_TrainingHelper.ipynb)
 
+[가장 많이 참고한 코드](https://nbviewer.jupyter.org/github/aisolab/CS20/blob/master/Lec12_Seq2Seq%20with%20Attention/Lec12_Seq2Seq%20by%20Encoder%20RNN%20and%20Decoder%20RNN.ipynb)
+
 
 
 ## TODO
