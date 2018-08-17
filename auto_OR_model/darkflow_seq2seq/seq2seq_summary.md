@@ -8,15 +8,17 @@
 
 [seq2seq로 뉴스 제목 추론하기](https://ratsgo.github.io/natural%20language%20processing/2017/03/12/s2s/)
 
-[배치학습 참조](https://medium.com/trackin-datalabs/input-data-tf-data-%EC%9C%BC%EB%A1%9C-batch-%EB%A7%8C%EB%93%A4%EA%B8%B0-1c96f17c3696)
-
 [모두의 딥러닝 메인 - 김성훈 교수님](https://hunkim.github.io/ml/)
 
 [모두의 딥러닝 - RNN 실습 슬라이드 - 김성훈 교수님](https://docs.google.com/presentation/d/1UpZVnOvouIbXd0MAFBltSra5rRpsiJ-UyBUKGCrfYoo/edit#slide=id.g1ed9069b96_0_184)
 
 [word-rnn-tensorflow_hunkim](https://github.com/hunkim/word-rnn-tensorflow)
 
-[텐서플로우 배치학습 방법](https://hiseon.me/2018/04/15/tensorflow-dataset/)
+[텐서플로우 배치학습 방법_1](https://medium.com/trackin-datalabs/input-data-tf-data-%EC%9C%BC%EB%A1%9C-batch-%EB%A7%8C%EB%93%A4%EA%B8%B0-1c96f17c3696)
+
+[텐서플로우 배치학습 방법_2](https://hiseon.me/2018/04/15/tensorflow-dataset/)
+
+[배치 학습 시 버퍼사이즈의 역할](https://stackoverflow.com/questions/46444018/meaning-of-buffer-size-in-dataset-map-dataset-prefetch-and-dataset-shuffle)
 
 [텐서플로우 seq2seq API 사용법](https://github.com/j-min/tf_tutorial_plus/blob/master/RNN_seq2seq/contrib_seq2seq/01_TrainingHelper.ipynb)
 
