@@ -7,7 +7,7 @@
 
 ## Implement TODO
 
-- [ ] seq2seq 모델 구현
+- [x] seq2seq 모델 구현
 - [ ] darkflow(YOLO v2의 텐서플로우 버전)의 결과를 seq2seq 모델에 인풋시키는 코드 구현
 - [ ] YOLO+seq2seq의 결과 sentence를 이용하여 적합한 OR model를 추천하는 것 구현
 - [ ] 추천된 OR model에서 최적의 해 찾기 기능을 구현
