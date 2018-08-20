@@ -25,7 +25,6 @@
 
 - 복잡한 pipeline을 하나로 통합(unified) 하였기 때문에 속도가 빠름.
 
-  
 
 ### 2) Unified Detection.
 
