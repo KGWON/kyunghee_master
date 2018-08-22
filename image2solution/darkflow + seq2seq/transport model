@@ -1,0 +1,28 @@
+\* Plane Distribution Problem *\
+Minimize
+OBJ: 3 route_chicago_los_angeles + 2 route_chicago_miami
+ + 2 route_chicago_new_york + 2 route_dallas_los_angeles
+ + 3 route_dallas_miami + 10 route_dallas_new_york
+Subject To
+_C1: route_dallas_los_angeles + route_dallas_miami + route_dallas_new_york
+ <= 2000
+_C2: route_chicago_los_angeles + route_chicago_miami + route_chicago_new_york
+ <= 2500
+_C3: route_chicago_los_angeles + route_dallas_los_angeles >= 3000
+_C4: route_chicago_miami + route_dallas_miami >= 2000
+_C5: route_chicago_new_york + route_dallas_new_york >= 2000
+Bounds
+0 <= route_chicago_los_angeles
+0 <= route_chicago_miami
+0 <= route_chicago_new_york
+0 <= route_dallas_los_angeles
+0 <= route_dallas_miami
+0 <= route_dallas_new_york
+Generals
+route_chicago_los_angeles
+route_chicago_miami
+route_chicago_new_york
+route_dallas_los_angeles
+route_dallas_miami
+route_dallas_new_york
+End
