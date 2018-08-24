@@ -35,7 +35,7 @@
 
   - [darkflow github](https://github.com/thtrieu/darkflow)
 
-  - [darkflow를 활용한 자동차 번호판 인식](https://park-ju-hyeong.github.io/2018/04/11/%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8E%E1%85%A1-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A9%E1%84%91%E1%85%A1%E1%86%AB-%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B5%E1%86%A8-(OCR)-with-YOLO-v2/)[darkflow github](https://github.com/thtrieu/darkflow)
+  - [darkflow를 활용한 자동차 번호판 인식](https://park-ju-hyeong.github.io/2018/04/11/%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A9%E1%86%BC%E1%84%8E%E1%85%A1-%E1%84%87%E1%85%A5%E1%86%AB%E1%84%92%E1%85%A9%E1%84%91%E1%85%A1%E1%86%AB-%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B5%E1%86%A8-(OCR)-with-YOLO-v2/)
 
 - seq2seq 레퍼런스
   - [seq2seq 생소한 코드로 구현](https://towardsdatascience.com/seq2seq-model-in-tensorflow-ec0c557e560f)
