@@ -1,4 +1,4 @@
-![mysql structure]("/miscellaneous/mysql_structure.png")
+<img src = "/miscellaneous/mysql_structure.png">
 
 *[출처: 생활코딩](https://opentutorials.org/course/3161)*
 
