@@ -1,10 +1,6 @@
-<img src="/miscellaneous/mysql_structure.png">
+![mysql structure]("/miscellaneous/mysql_structure.png")
 
-
-
-[mysql_strurcture.png](https://github.com/KGWON/kyunghee_master/blob/master/miscellaneous/mysql_strurcture.png)
-
-<br>
+*[출처: 생활코딩](https://opentutorials.org/course/3161)*
 
 ## MySQL monitor 실행 방법.
 
