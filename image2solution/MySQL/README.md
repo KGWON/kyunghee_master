@@ -10,7 +10,7 @@ cd /usr/local/mysql/bin/
 
 # 사용자는 root이고 password를 안 보이게 입력하겠다.
 # -u 뒤에 다른 도메인을 입력하면 그 도메인의 MySQL 서버에 접속하는 것임.
-./mysql -uroot -p 
+./mysql -uroot -p
 ```
 
 <br>
