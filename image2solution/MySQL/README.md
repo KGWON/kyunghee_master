@@ -1,4 +1,8 @@
-<img src="./miscellaneous/mysql_structure.png">
+<img src="/miscellaneous/mysql_structure.png">
+
+
+
+[mysql_strurcture.png](https://github.com/KGWON/kyunghee_master/blob/master/miscellaneous/mysql_strurcture.png)
 
 <br>
 
