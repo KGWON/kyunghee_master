@@ -1,11 +1,11 @@
-if (!require("devtools")) install.packages("devtools")
-if (!require("roxygen2")) install.packages("roxygen2")
+if (!require("devtools")) install.packages("devtools") ; library(devtools)
+if (!require("roxygen2")) install.packages("roxygen2") ;  library(roxygen2)
 
 ## working directory를 설정한다.
-setwd("/Users/ku/Desktop/myproject")
+setwd("/Users/ku/googleDrive/development/nncrawl")
 
 ## package directory를 생성한다.
-create("/Users/ku/Desktop/myproject")
+create("/Users/ku/googleDrive/development/nncrawl")
 
 ## working directory는 유지한 채로 ./R/ 하위에 패키지에 포함할 사용자 정의 함수들을 작성한다.
 
@@ -16,11 +16,4 @@ document()
 install(pkg="R")
 
 ## 패키지 로딩 및 테스트
-library(myproject)
-
-Add(1, 2)
-Subtract(1, 2)
-Multiply(1, 2)
-Divide(1, 2)
-?Divide
-?Add
+library(nncrawl)
