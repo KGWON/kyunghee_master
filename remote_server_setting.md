@@ -71,8 +71,15 @@
 - 3) 터미널에 아래 명령어를 실행한다.
 
 - ```
-  sshfs username@hostname:/remote/directory/path /local/mount/point -ovolname=NAME
+  # 외부에서 공용 와이파이나 핫스팟으로 연결시
+  # reconnect 옵션은 연결이 끊겼을 때 재연결하는 옵션임.
+  sshfs -o reconnect -p xxx caitech@xxx.xxx.xx.xx:/home/caitech /Users/ku/caitech -ovolname=caitech
+  
+  # 연구실에서 연결시
+  sshfs -o reconnect caitech@xxx.xxx.xx.xx:/home/caitech /Users/ku/caitech -ovolname=caitech
+  
   # /local/mount/point 폴더는 해당 명령어 수행 후 '볼륨'으로 변환됨.
+  
   # 변환될 볼륨의 이름을 -ovolname= 뒤에 적어주면 됨.
   ```
 
