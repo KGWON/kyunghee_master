@@ -96,3 +96,5 @@
 - [원격서버 볼륨 마운트하는 방법](https://apple.stackexchange.com/questions/5209/how-can-i-mount-sftp-ssh-in-finder-on-os-x-snow-leopard)
 - [SSHFS를 이용한 접속이 유지되는 마운트 및 마운트 해제방법](https://blog.leocat.kr/notes/2018/04/23/sshfs-mount-remote-server-using-ssh)
 - [세션 계속 유지하는 방법](https://blog.thinkbee.kr/linux/ssh-sshfs/)
+- [볼륨 unmout시 오류가 날 때 해결법](https://github.com/osxfuse/osxfuse/issues/45)
+
