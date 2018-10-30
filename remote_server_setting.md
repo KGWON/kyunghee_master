@@ -85,6 +85,8 @@
 
 - 4) 끝. 정말 쉽다… 놀랍다...
 
+- 5) 마운트된 볼륨이 해제 되어서 `umount [path]`로 볼륨을 해지하려고 했으나 `sshfs Input/output error` 에러가 발생한다면…  `sudo diskutil umount force [path]` 명령어를 통해 unmount할 수 있다.
+
 
 
 ### 레퍼런스
