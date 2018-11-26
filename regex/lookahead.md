@@ -12,6 +12,8 @@
 
 
 
+<img src="../miscellaneous/긍정전방탐색_플로우차트.png">
+
 예문:
 
 > http://www.naver.com
