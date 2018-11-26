@@ -24,7 +24,7 @@
 
 결과:
 
-<img src="./miscellaneous/긍정전방탐색.png" width="60%" height="60%">
+<img src="../miscellaneous/긍정전방탐색.png">
 
 
 
@@ -52,7 +52,7 @@
 
 결과:
 
-<img src="./miscellaneous/부정전방탐색.png" width="60%" height="60%">
+<img src="../miscellaneous/부정전방탐색.png">
 
 
 
@@ -82,7 +82,7 @@
 
 결과:
 
-<img src="./miscellaneous/긍정후방탐색.png" width="60%" height="60%">
+<img src="../miscellaneous/긍정후방탐색.png">
 
 
 
@@ -106,7 +106,7 @@
 
 결과:
 
-<img src="./miscellaneous/부정후방탐색.png" width="60%" height="60%">
+<img src="../miscellaneous/부정후방탐색.png">
 
 
 
@@ -117,4 +117,3 @@
 [전방탐색과 후방탐색](http://minsone.github.io/regex/regexp-lookaround)
 
 [regex101.com](https://regex101.com/)
-
